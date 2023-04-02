@@ -3,10 +3,9 @@
 .first,
 .second,
 .third,
-.fourth,
-.fifth {
+.fourth {
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
 .first {
@@ -19,6 +18,10 @@
 
 .fifth {
     background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li {
@@ -30,21 +33,162 @@ li {
     flex-direction: row;
     gap: 16px;
     justify-content: space-between;
-    margin: 20px;
+    margin: 0px;
     padding: 20px;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 250px;
 }
 
-.link {
+.link,
+.link3 {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+.link3 {
+    margin-right: 250px;
+}
+
+
 .links {
     display: flex;
     gap: 50px;
+}
+
+.pheader {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.pcontext {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 480px;
+}
+
+.context {
+    width: 350px;
+    margin-left: 250px;
+}
+
+.placeHolder {
+    background-color: #E5E7EB;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.firstDivBottomPart {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.divTwoHeading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 70px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.square {
+    border: blue solid 5px;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.secondDivBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 150px;
+}
+
+.eachDiv {
+    display: flex;
+    align-items: center;
+}
+
+.secondDivHeading {
+    display: flex;
+    justify-content: center;
+}
+
+.eachSquare {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoteDiv {
+    width: 900px;
+}
+
+.autherDiv {
+    width: 850px;
+    margin-left: auto;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auther {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.blueDiv {
+    background-color: rgb(65, 138, 233);
+    width: 1050px;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1 {
+    color: #F9FAF8;
+    font-size: 36px;
+}
+
+.p2 {
+    color: #F9FAF8;
+    font-size: 18px;
 }
